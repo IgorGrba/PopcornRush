@@ -13,6 +13,8 @@ TagManager:
   - Hole
   - FinishLine
   - SphereObj
+  - Oil
+  - CollectedPool
   layers:
   - Default
   - TransparentFX

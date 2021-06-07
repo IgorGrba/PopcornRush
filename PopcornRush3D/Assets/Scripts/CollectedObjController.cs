@@ -62,6 +62,7 @@ public class CollectedObjController : MonoBehaviour
                 playerManager.CallMakeSphere();
            }
        }
+
    }
    void DestroyTheObject() {
        playerManager.collidedList.Remove(gameObject);

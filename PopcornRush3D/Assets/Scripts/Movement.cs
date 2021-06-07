@@ -8,6 +8,8 @@ public class Movement : MonoBehaviour
     [SerializeField] float movementSpeed;
     [SerializeField] float controlSpeed;
 
+    public GameObject popcornPrefab;
+
     //Touch Settings
     [SerializeField] bool isTouching;
     float touchPosX;
@@ -21,6 +23,7 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
+      
         GetInput();
     }
 
