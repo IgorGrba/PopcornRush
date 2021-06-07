@@ -62,14 +62,13 @@ public class CollectedObjController : MonoBehaviour
                 playerManager.CallMakeSphere();
            }
        }
-
    }
    void DestroyTheObject() {
        playerManager.collidedList.Remove(gameObject);
        Destroy(gameObject);
 
        Transform partcile= Instantiate(playerManager.partcilePrefab,transform.position,Quaternion.identity);
-       partcile.GetComponent<ParticleSystem>().startColor = playerManager.collectedObjMat.color;
+    //    partcile.GetComponent<ParticleSystem>().startColor = playerManager.collectedObjMat.color;
    }
     public void MakeSphere() {
         gameObject.GetComponent<BoxCollider>().enabled=false;

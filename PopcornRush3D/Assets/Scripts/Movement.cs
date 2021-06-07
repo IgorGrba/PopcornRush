@@ -7,8 +7,7 @@ public class Movement : MonoBehaviour
     [SerializeField] PlayerManager playerManager;
     [SerializeField] float movementSpeed;
     [SerializeField] float controlSpeed;
-
-    public GameObject popcornPrefab;
+    [SerializeField] Animator myAnim;
 
     //Touch Settings
     [SerializeField] bool isTouching;
@@ -17,24 +16,32 @@ public class Movement : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 
 
     void Update()
     {
-      
         GetInput();
     }
 
     private void FixedUpdate() {
-        
         if(playerManager.playerState==PlayerManager.PlayerState.Move) {
+            myAnim.SetBool("isRunning", true);
             transform.position += Vector3.forward * movementSpeed * Time.fixedDeltaTime;
         }
+
+        ///TRY TO FIGURE IT OUT
+        // if(playerManager.playerState==PlayerManager.PlayerState.Stop)
+        // {
+        //     myAnim.SetBool("isRunning", false);
+        // }
+        
+        
         if(isTouching) {
             touchPosX += Input.GetAxis("Mouse X") * controlSpeed *Time.fixedDeltaTime;
         }
+        
 
         transform.position = new Vector3(touchPosX, transform.position.y, transform.position.z);
     }

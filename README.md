@@ -1,2 +1,0 @@
-# PopcornRush
-Testing some games
