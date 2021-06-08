@@ -27,7 +27,6 @@ public class Movement : MonoBehaviour
 
     private void FixedUpdate() {
         if(playerManager.playerState==PlayerManager.PlayerState.Move) {
-            myAnim.SetBool("isRunning", true);
             transform.position += Vector3.forward * movementSpeed * Time.fixedDeltaTime;
         }
 
