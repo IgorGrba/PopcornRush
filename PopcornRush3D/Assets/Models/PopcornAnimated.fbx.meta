@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 88fc1e67f0092114ba7966adbf626f51
+guid: 54be244256b9d3849997937d05fb422d
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
@@ -7,8 +7,8 @@ ModelImporter:
       74: 1827226128182048838
     second: Jump
   - first:
-      74: -9121621101649706817
-    second: Running
+      74: 5522812681064789136
+    second: Run
   - first:
       74: -3100369314251171874
     second: Idle
@@ -17,22 +17,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Mat.1
-    second: {fileID: 2100000, guid: 861fff64b157b414f8aa2682394729f0, type: 2}
+    second: {fileID: 2100000, guid: 6e8032b4aca485345bb7824e69e33de5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Mat.2
-    second: {fileID: 2100000, guid: 6da21635aba8f34488ee82673dc649fb, type: 2}
+    second: {fileID: 2100000, guid: eebb90acd67cf6f408d8bf3421011e38, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material #42
-    second: {fileID: 2100000, guid: 93ec4663a469dbb43a08f50ab1265173, type: 2}
+    second: {fileID: 2100000, guid: a6bc7d0bdbad1914a9aa12bdd40b19e7, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: kernelUVWTexture2
-    second: {fileID: 2800000, guid: b1db6139ac87d4746b82237f58ffade5, type: 3}
+    second: {fileID: 2800000, guid: 33d32d2033340224188623974af7b839, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -90,7 +90,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Running
+      name: Run
       takeName: Take 001
       internalID: 0
       firstFrame: 26
@@ -101,7 +101,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -130,7 +130,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

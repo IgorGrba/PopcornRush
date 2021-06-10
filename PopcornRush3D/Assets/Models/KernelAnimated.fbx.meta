@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d067ab23911eaf04fa6961ff95e8b590
+guid: 3c0bef979446e9947b10a3e405564a7d
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
@@ -12,7 +12,22 @@ ModelImporter:
   - first:
       74: -3100369314251171874
     second: Idle
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #26
+    second: {fileID: 2100000, guid: ffaf10230d486814d9e842c0636a4c1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #42
+    second: {fileID: 2100000, guid: 5ebf2b5eff8606042ac3749fd1e0ca42, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kernelUVWTexture2
+    second: {fileID: 2800000, guid: f5135140c41b6da439f596c7161c7241, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

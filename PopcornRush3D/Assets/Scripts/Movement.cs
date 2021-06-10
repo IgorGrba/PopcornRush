@@ -1,27 +1,47 @@
-﻿
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    [SerializeField] PlayerManager playerManager;
+    [SerializeField] float movementSpeed;
+    [SerializeField] float controlSpeed;
 
-    public float speed = 5f;
-    public float controlSpeed;
+    //Touch Settings
+    [SerializeField] bool isTouching;
+    float touchPosX;
+    Vector3 direction;
+
+    void Start()
+    {
+        
+    }
 
 
     void Update()
     {
-
-        transform.position += Vector3.forward * Time.deltaTime * speed;
-        if (Input.touchCount > 0)
-        {
-            Vector2 touchDeltaPosition = Input.GetTouch(0).deltaPosition;
-            float NewPos = touchDeltaPosition.x * controlSpeed / Screen.width;
-            transform.Translate(NewPos, 0, 0);
-
-        }
+        GetInput();
     }
-    public void AdjustSpeed(float newSpeed)
-    {
-        speed = newSpeed;
+
+    private void FixedUpdate() {
+        
+        if(playerManager.playerState==PlayerManager.PlayerState.Move) {
+            transform.position += Vector3.forward * movementSpeed * Time.fixedDeltaTime;
+        }
+        if(isTouching) {
+            touchPosX += Input.GetAxis("Mouse X") * controlSpeed *Time.fixedDeltaTime;
+        }
+
+        transform.position = new Vector3(touchPosX, transform.position.y, transform.position.z);
+    }
+
+    void GetInput() {
+        if(Input.GetMouseButton(0)) {
+            isTouching=true;
+        }
+        else {
+            isTouching=false;
+        }
     }
 }
