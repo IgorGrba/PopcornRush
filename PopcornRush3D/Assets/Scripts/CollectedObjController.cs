@@ -40,7 +40,7 @@ public class CollectedObjController : MonoBehaviour
    private void OnTriggerEnter(Collider other) {
               if(other.gameObject.CompareTag("CollectibleList")) {
                   print("trigger enter");
-           other.transform.GetComponent<BoxCollider>().enabled=false;
+           other.transform.GetComponent<CapsuleCollider>().enabled=false;
            other.transform.parent= playerManager.collectedPoolTransform;
 
            foreach (Transform child in other.transform) {

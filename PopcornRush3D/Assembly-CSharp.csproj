@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3ef3eb8c-5261-edf7-56be-ef531db917da}</ProjectGuid>
+    <ProjectGuid>{5b9f1c86-d4a9-73f0-c14d-0f591aa538cc}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -36,13 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\OilTransformator.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\CollectedObjController.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\FirstPlayer.cs" />
      <Compile Include="Assets\Scripts\PopcornCharacter.cs" />
-     <Compile Include="Assets\Scripts\OilTransformator.cs" />
+     <Compile Include="Assets\Scripts\FirstPlayer.cs" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_URP.txt" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Triplanar Sampling.txt" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Dissolve.shader" />
@@ -127,6 +127,7 @@
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_HSV.txt" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Hybrid\TCP2 Hybrid URP Support.cginc" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_Standard PBS (Specular).shader" />
+     <None Include="Assets\Shaders\Skybox Gradient.shader" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Variants Base\TCP2_Mobile_Outline.shader" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Variants Base\TCP2_Desktop_Specular_Outline.shader" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Rim Lighting.txt" />
@@ -369,7 +370,7 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>C:/Users/Logerz/Desktop/StickyBlocksClone/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>D:/Git/PopcornRush/PopcornRush3D/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -718,68 +719,68 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{9b0e6251-f0f7-4ebf-56c5-8a41502fa1c7}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{18d46bbb-6344-7b2f-4a9a-85c2a5fcfaf5}</Project>
+      <Project>{ccbf830f-c500-95cc-ae55-0d0d4f5edb81}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{5e4c0221-263a-8d0d-7c36-4df923c5bc8a}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{f6cb7440-13e0-42b2-8b56-d3f85d1fc52c}</Project>
+      <Project>{612b313f-01a4-8db9-f354-5b1463d4ea2e}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{98aeb9e1-2165-81e1-1ae9-b1d9911b3042}</Project>
+      <Project>{805983a5-6d1b-c90d-7653-62878f584263}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="ToonyColorsPro.Runtime.csproj">
+      <Project>{2beb2a55-7f8b-1a6f-32f8-69be87bd5f52}</Project>
+      <Name>ToonyColorsPro.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
+      <Project>{309abc0f-a4b9-779c-04b0-da1a5d502fd5}</Project>
+      <Name>ToonyColorsPro.Demo.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{f1830416-77c3-b81a-8f70-7b5ec33f1440}</Project>
+      <Project>{56978ce8-c232-6910-e4c8-36b3b2949e30}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{cc3d5613-a057-0cd6-7ce1-8ecef3ebf8c4}</Project>
+      <Project>{a6bb73be-5ed9-d277-efbe-a46b1d071b4a}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{276b63c8-1aa0-0aa8-28a4-5af635faafe2}</Project>
+      <Project>{fb8abfc8-37f5-a8ef-e8dc-6cd61ac873d5}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{7d7f023a-3137-c3d4-00f6-60bb192cd4bb}</Project>
+      <Project>{7f8ba4eb-9d1f-1723-24bc-e024c189f7cf}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{48985272-764b-9cf5-8a86-ae4b97df5561}</Project>
+      <Project>{8368b5e7-217c-3160-35e7-7ef7ef25cb18}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{f0144e6d-5b6b-a2fd-abeb-8cf41ad789a2}</Project>
+      <Project>{06fd9b71-b615-64e0-d0d8-c27086e52a76}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{f8b8723d-57f5-2576-3005-8dca7e7786b9}</Project>
+      <Project>{0f80e34c-ff04-a320-3747-ece789f86a82}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{657e061f-b454-4ab3-52c5-185d76bebf53}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{dbf8a019-5640-0376-db16-d2d9f021061b}</Project>
-      <Name>Cinemachine</Name>
-    </ProjectReference>
-    <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
-      <Project>{89350b18-1901-cb0b-8751-44b515193376}</Project>
-      <Name>ToonyColorsPro.Demo.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="ToonyColorsPro.Runtime.csproj">
-      <Project>{7345e425-c123-a37d-c526-5afc156d7a5f}</Project>
-      <Name>ToonyColorsPro.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Editor.csproj">
-      <Project>{1ccab492-7bb7-d88a-5bac-7b8297059f83}</Project>
+      <Project>{ca545007-d9c3-030f-9617-152077a7d0fe}</Project>
       <Name>ToonyColorsPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro2.Demo.csproj">
-      <Project>{d7aff407-d2be-27a3-9692-8f7fb5188eaf}</Project>
+      <Project>{1e630702-9040-2235-4d7e-67ee501248e6}</Project>
       <Name>ToonyColorsPro2.Demo</Name>
     </ProjectReference>
   </ItemGroup>

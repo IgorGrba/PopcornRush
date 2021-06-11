@@ -27,8 +27,8 @@ public class FirstPlayer : MonoBehaviour
     void Grounded() {
         isGrounded=true;
         playerManager.playerState = PlayerManager.PlayerState.Move;
-        rb.useGravity=false;
-        rb.constraints=RigidbodyConstraints.FreezeAll;
+        rb.useGravity=true;
+        rb.constraints=RigidbodyConstraints.FreezeRotation;
 
         Destroy(this,1);
     }
