@@ -23,8 +23,14 @@ public class CollectedObjController : MonoBehaviour
 
         }
     }
+    void Update()
+    {
+          
 
-   private void OnCollisionEnter(Collision other) {
+
+      
+    }
+    private void OnCollisionEnter(Collision other) {
        if(other.gameObject.CompareTag("CollectibleObj")) {
            if(!playerManager.collidedList.Contains(other.gameObject)) {
                other.gameObject.tag ="CollectedObj";

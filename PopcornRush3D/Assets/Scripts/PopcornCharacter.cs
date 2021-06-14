@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PopcornCharacter : MonoBehaviour
+   
+
 {
     [Header("Kernel Visual")]
     public GameObject kernelModel;
     public Animator kernelAnimator;
+    
 
     [Header("Popcorn Visual")]
     public GameObject popcornModel;
@@ -16,6 +19,12 @@ public class PopcornCharacter : MonoBehaviour
     {
         kernelModel.SetActive(false);
         popcornModel.SetActive(true);
+        if(popcornModel.activeInHierarchy == false)
+        {
+            popcornAnimator.SetTrigger("Pop");
+        }
+        
+        
     }
 
     public void ActivateKernel()
