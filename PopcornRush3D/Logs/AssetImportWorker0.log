@@ -15,11 +15,11 @@ C:/Users/djord/Desktop/PopcornRush/PopcornRush3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58290
+64011
 Successfully changed project path to: C:/Users/djord/Desktop/PopcornRush/PopcornRush3D
 C:/Users/djord/Desktop/PopcornRush/PopcornRush3D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1265 +35,185 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001910 seconds.
+Registered in 0.001894 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.817 seconds
+- Completed reload, in  1.698 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004083 seconds.
+Registered in 0.003795 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.183 seconds
+- Completed reload, in  1.027 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1679 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 109.9 MB.
-System memory in use after: 109.9 MB.
+System memory in use before: 110.2 MB.
+System memory in use after: 110.3 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2113.
-Total: 2.554400 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.112300 ms MarkObjects: 2.041100 ms  DeleteObjects: 0.189000 ms)
+Total: 2.164500 ms (FindLiveObjects: 0.172500 ms CreateObjectMapping: 0.064500 ms MarkObjects: 1.755200 ms  DeleteObjects: 0.171400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Models/gauntlet.fbx
-  artifactKey: Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gauntlet.fbx using Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a49bf045945dce46925bb5527e0e5b') in 0.272025 seconds
-  Import took 0.276126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.621366 seconds.
-  path: Assets/Models/gauntlet.fbx
-  artifactKey: Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gauntlet.fbx using Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc22299c99ee0dd7b6ca79c34d66da1') in 0.127836 seconds
-  Import took 0.132584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.758463 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/Roboto-Regular.ttf
-  artifactKey: Guid(6ed7389dc6cc157418355b24d4ed743d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/Roboto-Regular.ttf using Guid(6ed7389dc6cc157418355b24d4ed743d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20264d3de5a1ac3c01ce53d4f514eb08') in 0.058886 seconds
-  Import took 0.064200 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Editor/Fonts/sen/sen-bold.otf
-  artifactKey: Guid(21b3731dcedecc546bf47de8757b4e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Editor/Fonts/sen/sen-bold.otf using Guid(21b3731dcedecc546bf47de8757b4e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d16da8dbec16a06c024e25970c0e86') in 0.026074 seconds
-  Import took 0.030725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Ground Hybrid.mat
-  artifactKey: Guid(a3577d799040991478f3c045c0ac12bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Ground Hybrid.mat using Guid(a3577d799040991478f3c045c0ac12bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408e27a6c8d655feb76bf0ab3eedceea') in 0.433547 seconds
-  Import took 0.436993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Hybrid Glass.mat
-  artifactKey: Guid(d8cf46e476746194a9b68b38ca0df280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Hybrid Glass.mat using Guid(d8cf46e476746194a9b68b38ca0df280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ed87db5cdf2480e3f3b56a59d7104c') in 0.196287 seconds
-  Import took 0.200257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Hybrid Metal.mat
-  artifactKey: Guid(52c54a9182faa9f4ab82242d24e0caf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Hybrid Metal.mat using Guid(52c54a9182faa9f4ab82242d24e0caf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989f5113260b7cd02682824fde48109f') in 0.232747 seconds
-  Import took 0.236316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style5.mat
-  artifactKey: Guid(83257c26f67800c40a2dcc0e3aa075ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style5.mat using Guid(83257c26f67800c40a2dcc0e3aa075ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134d5d8ccaa024ff38b1548a5b8b42dd') in 0.323241 seconds
-  Import took 0.326775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Standard.mat
-  artifactKey: Guid(8faba72b94886b04ab1d13c158cd5185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Standard.mat using Guid(8faba72b94886b04ab1d13c158cd5185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80b262cb193e95847566c852c521f54') in 0.211828 seconds
-  Import took 0.215591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG2 Demo Assets/Default/TCP2_Demo_SG2 Hologram Robot.mat
-  artifactKey: Guid(10ebbbce55b7dab44b51fd05b20b6c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG2 Demo Assets/Default/TCP2_Demo_SG2 Hologram Robot.mat using Guid(10ebbbce55b7dab44b51fd05b20b6c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557b469e99c9f1fcdbb9a6632da45f32') in 0.179459 seconds
-  Import took 0.183469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Cubemaps/TCP2_Demo_Sky_LancellottiChapel.mat
-  artifactKey: Guid(7ab5713f065e9a544b3377bb8858c8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Cubemaps/TCP2_Demo_Sky_LancellottiChapel.mat using Guid(7ab5713f065e9a544b3377bb8858c8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf306a3aa1a0be6cad21da11ef66cc7') in 0.184475 seconds
-  Import took 0.189639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style1.mat
-  artifactKey: Guid(b3a4311485e827346b370081432ddfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style1.mat using Guid(b3a4311485e827346b370081432ddfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3a1744ca08078680b686964bc999cb') in 0.358738 seconds
-  Import took 0.362475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style2 hat.mat
-  artifactKey: Guid(aeeccc396b6b9f648b9aec3dfb9b0a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style2 hat.mat using Guid(aeeccc396b6b9f648b9aec3dfb9b0a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa55ca1bacb9eed17ef86641c884fc6') in 0.194028 seconds
-  Import took 0.197600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style1 skin.mat
-  artifactKey: Guid(8eb133fd34a3cff4ab82c68dc51072d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style1 skin.mat using Guid(8eb133fd34a3cff4ab82c68dc51072d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b40cc43926c8f79d2f420e2dd932c4') in 0.283404 seconds
-  Import took 0.287147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style2.mat
-  artifactKey: Guid(ee72c3b09636e0346a7909b0614ab334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style2.mat using Guid(ee72c3b09636e0346a7909b0614ab334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd737c3fd4771823429bbcdd39fad233') in 0.038212 seconds
-  Import took 0.041722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style2 skin.mat
-  artifactKey: Guid(a4f8bb9f618d7474184e8087bc2c7faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style2 skin.mat using Guid(a4f8bb9f618d7474184e8087bc2c7faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466a165f2abc3b83ddefabe3c01f32ba') in 0.132347 seconds
-  Import took 0.135595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style2.mat
-  artifactKey: Guid(d7ada63ca13f72749a46cd7c17b7355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style2.mat using Guid(d7ada63ca13f72749a46cd7c17b7355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39838ec67cbf79e8cdf66db3c36f116e') in 0.030912 seconds
-  Import took 0.034236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style5.mat
-  artifactKey: Guid(04bf96ebc893e07458950319069ad094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style5.mat using Guid(04bf96ebc893e07458950319069ad094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1426cf422b340cba34b795f989395767') in 0.059177 seconds
-  Import took 0.062795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style3 flat body.mat
-  artifactKey: Guid(37ec048f46d9e9946a319fba39ca8df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style3 flat body.mat using Guid(37ec048f46d9e9946a319fba39ca8df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96391c64cd4f93ef6720ef9ba6b15a4c') in 0.278315 seconds
-  Import took 0.282086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_BrickWall.mat
-  artifactKey: Guid(59da09a3c69f9aa43a970b5d5327f751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_BrickWall.mat using Guid(59da09a3c69f9aa43a970b5d5327f751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5c8776a8135013b8148d15051ecd33') in 0.137141 seconds
-  Import took 0.141000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Graphics/TCP2_Demo_SkyboxDay.mat
-  artifactKey: Guid(b94a90c9516c9cc42bf2d46a3d63a76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Graphics/TCP2_Demo_SkyboxDay.mat using Guid(b94a90c9516c9cc42bf2d46a3d63a76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf35581c77667450fd67d85ef666487c') in 0.108103 seconds
-  Import took 0.113396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/PBS/TCP2_Demo_Robot_OutlineBehind.mat
-  artifactKey: Guid(97aa59554bf2d684d908a7ca26adbc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/PBS/TCP2_Demo_Robot_OutlineBehind.mat using Guid(97aa59554bf2d684d908a7ca26adbc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5819853398c8d464a4eba99751623ebc') in 0.231710 seconds
-  Import took 0.234732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style6.mat
-  artifactKey: Guid(6bcb22c8498394e429d978362a4dfab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style6.mat using Guid(6bcb22c8498394e429d978362a4dfab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b6c0b772b254ad7a88b6d45368d5fb') in 0.310687 seconds
-  Import took 0.315665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG2 Demo Assets/Default/TCP2_Demo_SG2 Detail Mask Simple.mat
-  artifactKey: Guid(ab96598f86905c64598123d0045b716c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG2 Demo Assets/Default/TCP2_Demo_SG2 Detail Mask Simple.mat using Guid(ab96598f86905c64598123d0045b716c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4d2d3d82dd0bc39e31c0f5a828f951') in 0.156906 seconds
-  Import took 0.160772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Robot Kyle/Materials/TCP2_Demo Robot.mat
-  artifactKey: Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Robot Kyle/Materials/TCP2_Demo Robot.mat using Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0644f894b02e42d64b9e19e941a0c6a0') in 0.183673 seconds
-  Import took 0.187222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_Graffiti3.mat
-  artifactKey: Guid(ff6d4e722c3910f4fa11530dd8672736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_Graffiti3.mat using Guid(ff6d4e722c3910f4fa11530dd8672736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e51d5f47180d81e6f71566675fd3395') in 0.199825 seconds
-  Import took 0.206279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019996 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Small_boat.mat
-  artifactKey: Guid(7381c437a390c6947b4ee346536dc92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Small_boat.mat using Guid(7381c437a390c6947b4ee346536dc92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33480a20575ccc51f9e6c76b24982f4f') in 0.048696 seconds
-  Import took 0.056287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style6.mat
-  artifactKey: Guid(2c8a59b3f26df7c49932a4aef9706cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style6.mat using Guid(2c8a59b3f26df7c49932a4aef9706cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee1cc1e18737af87f9fcc5baed5a18d') in 0.048248 seconds
-  Import took 0.053344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Cubemaps/TCP2_Demo_Sky_Yokohama.mat
-  artifactKey: Guid(85b297024495e4645803112b8f339791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Cubemaps/TCP2_Demo_Sky_Yokohama.mat using Guid(85b297024495e4645803112b8f339791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c814e1ceb96b8a6b0182018813de51') in 0.111749 seconds
-  Import took 0.117386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style1.mat
-  artifactKey: Guid(f5de3765c494bdf4baa27b1a6645a2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style1.mat using Guid(f5de3765c494bdf4baa27b1a6645a2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17efe04c67bb7d25ec2c5156c320e99') in 0.225804 seconds
-  Import took 0.229267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG2 Demo Assets/Default/TCP2_Demo_SG2 Detail Mask Advanced.mat
-  artifactKey: Guid(eb1a486150b2e9b49b655c7ec2ba463e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG2 Demo Assets/Default/TCP2_Demo_SG2 Detail Mask Advanced.mat using Guid(eb1a486150b2e9b49b655c7ec2ba463e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a89123bd14b40092427f2774f9e5aaf') in 0.199427 seconds
-  Import took 0.203062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style1 body.mat
-  artifactKey: Guid(a97a2a1639d9ff341858f6d51e44ad7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style1 body.mat using Guid(a97a2a1639d9ff341858f6d51e44ad7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea1def9b3197ef5381758343429730b') in 0.150497 seconds
-  Import took 0.154934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Skybox.mat
-  artifactKey: Guid(0e269d21846501c4dbb4e1520793d286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Skybox.mat using Guid(0e269d21846501c4dbb4e1520793d286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02d6c6287bea9bb9fea57713831a712') in 0.123847 seconds
-  Import took 0.127983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style3 hat.mat
-  artifactKey: Guid(18b22bf4b2c8454488d7bbda8c5affdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style3 hat.mat using Guid(18b22bf4b2c8454488d7bbda8c5affdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ca294e9252a9896f3ce8da72280c2a') in 0.221230 seconds
-  Import took 0.225118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style6 skin.mat
-  artifactKey: Guid(992dadfb4fe655648937047d9d8289c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style6 skin.mat using Guid(992dadfb4fe655648937047d9d8289c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b333d407983c22bfb76842e0bc30658c') in 0.260893 seconds
-  Import took 0.264290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style2 hat.mat
-  artifactKey: Guid(3f8d52d32a02e5c4cae37934e124f4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style2 hat.mat using Guid(3f8d52d32a02e5c4cae37934e124f4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9bdd207a8b4002607d7ec2bb7c0a8a') in 0.031258 seconds
-  Import took 0.034784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Robot Kyle/Materials/TCP2_Demo Robot PBS.mat
-  artifactKey: Guid(9f3a70a4a6c18ea49929fc2eabd72d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Robot Kyle/Materials/TCP2_Demo Robot PBS.mat using Guid(9f3a70a4a6c18ea49929fc2eabd72d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e8004fdf7207858f99f8f46b630bf2') in 0.259164 seconds
-  Import took 0.262589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Default/TCP2_Demo_Robot_ComicBook.mat
-  artifactKey: Guid(914187be8c4146647856ca06c845038e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Default/TCP2_Demo_Robot_ComicBook.mat using Guid(914187be8c4146647856ca06c845038e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94944c0d8c1089e2327fa70ed582a240') in 0.221407 seconds
-  Import took 0.225370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Hybrid MatCap.mat
-  artifactKey: Guid(3a38e4ad40800e94a8346ca005b9e060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Hybrid MatCap.mat using Guid(3a38e4ad40800e94a8346ca005b9e060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9860cc5ead86b84f9d53a97c80b39a81') in 0.481715 seconds
-  Import took 0.485182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style5 flat body.mat
-  artifactKey: Guid(6c4a95eb6e05d054f9290ea551b83740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style5 flat body.mat using Guid(6c4a95eb6e05d054f9290ea551b83740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e72dc3585bf87031d2204276d0249d') in 0.378337 seconds
-  Import took 0.381857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style1 flat.mat
-  artifactKey: Guid(095d600332d3bfb49a4a577478a2c244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style1 flat.mat using Guid(095d600332d3bfb49a4a577478a2c244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca0b5e4c2fbcf9b49e77be0edd113d3') in 0.156473 seconds
-  Import took 0.160104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style2 flat body.mat
-  artifactKey: Guid(0c66e67fa5905ec4c8682b9bc9be0422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style2 flat body.mat using Guid(0c66e67fa5905ec4c8682b9bc9be0422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf91fffd05d49deaf4f4acb0c4ece974') in 0.128375 seconds
-  Import took 0.132677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style4.mat
-  artifactKey: Guid(02e9382093b5a2544a3b1c4579d53053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style4.mat using Guid(02e9382093b5a2544a3b1c4579d53053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6382ddde8f412ee766a1f2b88317356') in 0.292766 seconds
-  Import took 0.296133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Water/TCP2_Demo_WaterWW2.mat
-  artifactKey: Guid(47596a96e0566484a9e16897e5b3a6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Water/TCP2_Demo_WaterWW2.mat using Guid(47596a96e0566484a9e16897e5b3a6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07180169542a7c6df716e3a69e708ebb') in 0.018743 seconds
-  Import took 0.021571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Water/TCP2_Demo_WaterWW.mat
-  artifactKey: Guid(39f9737bbb30e0145866882e02323659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Water/TCP2_Demo_WaterWW.mat using Guid(39f9737bbb30e0145866882e02323659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72feecd4b95b47c3e8c668dca19bf005') in 0.223988 seconds
-  Import took 0.227149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_Graffiti2.mat
-  artifactKey: Guid(77a784bbe1cc7e74c967711359ac7bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_Graffiti2.mat using Guid(77a784bbe1cc7e74c967711359ac7bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f933eae8c78c9521ebb8cee99569a0') in 0.026250 seconds
-  Import took 0.029351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_StreetLightDay_Flat.mat
-  artifactKey: Guid(3573bf27da57b4d4396a5336aef89ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_StreetLightDay_Flat.mat using Guid(3573bf27da57b4d4396a5336aef89ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9a6e237bacfc505d001c3ff472e6f0') in 0.158223 seconds
-  Import took 0.161253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style1.mat
-  artifactKey: Guid(005849c57f96462458e13d465c696675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style1.mat using Guid(005849c57f96462458e13d465c696675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5114483df1644b435d1ea131e3b2f3f') in 0.022661 seconds
-  Import took 0.026818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style6 hat.mat
-  artifactKey: Guid(c876363f7aa22f64398688fc6ba99369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style6 hat.mat using Guid(c876363f7aa22f64398688fc6ba99369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f245c1ef62f0260ce3caf868e9256e') in 0.029148 seconds
-  Import took 0.032664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_Graffiti1.mat
-  artifactKey: Guid(04472787f80092f4b85f74bd4bd4f19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_Graffiti1.mat using Guid(04472787f80092f4b85f74bd4bd4f19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13ccce0eb925efe60d42ab4860b5643') in 0.024825 seconds
-  Import took 0.028111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/PBS/TCP2_Demo_Robot_PBS.mat
-  artifactKey: Guid(f0cebd6b7384ac9438f97ad650051a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/PBS/TCP2_Demo_Robot_PBS.mat using Guid(f0cebd6b7384ac9438f97ad650051a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b2198243bed555bab9be0a150c7793') in 0.035510 seconds
-  Import took 0.038531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style3 hat.mat
-  artifactKey: Guid(3893aef360f6a1a42b1f6f1d02ed5233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style3 hat.mat using Guid(3893aef360f6a1a42b1f6f1d02ed5233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be7ab439c01a076f56a0e5f3af8fdaf') in 0.031925 seconds
-  Import took 0.035661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/PBS/TCP2_Demo_Robot_BlendedOutline.mat
-  artifactKey: Guid(dd9f840ab4828ac4691ba7520254328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/PBS/TCP2_Demo_Robot_BlendedOutline.mat using Guid(dd9f840ab4828ac4691ba7520254328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd851bc00c6239a158c04575dfd4ef912') in 0.215883 seconds
-  Import took 0.219476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style5 skin.mat
-  artifactKey: Guid(f9e600ffe4ad8754294ce986e552ade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style5 skin.mat using Guid(f9e600ffe4ad8754294ce986e552ade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0facefe92aafb714343c4835f1932466') in 0.348597 seconds
-  Import took 0.351554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/PBS/TCP2_Demo_Robot_HandPainted.mat
-  artifactKey: Guid(a967bf342b9bcc249bf08cbd0a9eed71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/PBS/TCP2_Demo_Robot_HandPainted.mat using Guid(a967bf342b9bcc249bf08cbd0a9eed71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6cfd3d2cf942c692d4b46979490e33') in 0.205744 seconds
-  Import took 0.209522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_Car_Flat.mat
-  artifactKey: Guid(a2584f72a2d294c489d4869a70d183e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_Car_Flat.mat using Guid(a2584f72a2d294c489d4869a70d183e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf21b2bf3166af19092e24fc17c9f530') in 0.192841 seconds
-  Import took 0.196349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Editor/Fonts/sen/sen-regular.otf
-  artifactKey: Guid(1c46d7c29c394ca4686ed5107ea64a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Editor/Fonts/sen/sen-regular.otf using Guid(1c46d7c29c394ca4686ed5107ea64a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea151f4bac7f83f05a09496288cc669') in 0.018575 seconds
-  Import took 0.021275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style6 flat skin.mat
-  artifactKey: Guid(49c063dd7d0726d489ae9a42bc06e44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style6 flat skin.mat using Guid(49c063dd7d0726d489ae9a42bc06e44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71892696bd9f4b18f98c79829f8a64af') in 0.075956 seconds
-  Import took 0.079076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style3.mat
-  artifactKey: Guid(8c96a0c3889643048ba58d1a516282e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style3.mat using Guid(8c96a0c3889643048ba58d1a516282e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f389d7502b446669467211e42c355c4') in 0.076796 seconds
-  Import took 0.080347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_VertexColors.mat
-  artifactKey: Guid(5317db51cf2174641923a1b4a0bbe894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_VertexColors.mat using Guid(5317db51cf2174641923a1b4a0bbe894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753951acff360fde2513c95328b2df9a') in 0.018253 seconds
-  Import took 0.021259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Hybrid Outline Lit.mat
-  artifactKey: Guid(c29db9de06851b14a986acf12b247cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Hybrid Outline Lit.mat using Guid(c29db9de06851b14a986acf12b247cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8336cdad6881a8eb803a282a5e5b54ce') in 0.209029 seconds
-  Import took 0.212290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style3.mat
-  artifactKey: Guid(b3ff81135eae9724baf20bcda34c63fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style3.mat using Guid(b3ff81135eae9724baf20bcda34c63fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9d41ec57d76e1599d9db80609b3c3a') in 0.023043 seconds
-  Import took 0.026056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Balloon.mat
-  artifactKey: Guid(11b59625d2a27774b9f822bf1bd4d48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Balloon.mat using Guid(11b59625d2a27774b9f822bf1bd4d48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054fb2b3a9fb9a1cfab18b6b13ebc695') in 0.024950 seconds
-  Import took 0.028355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG2 Demo Assets/Default/TCP2_Demo_SG2 Dissolve Robot.mat
-  artifactKey: Guid(4e96cebf19503a34a8ff3adab5dee8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG2 Demo Assets/Default/TCP2_Demo_SG2 Dissolve Robot.mat using Guid(4e96cebf19503a34a8ff3adab5dee8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf51faf43ed817f03816d8271e14f34') in 0.349555 seconds
-  Import took 0.353330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.110691 seconds.
-  path: Assets/Models/gauntlet.fbx
-  artifactKey: Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gauntlet.fbx using Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0163f89373783822512d159dba2360f') in 0.103897 seconds
-  Import took 0.107833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.775400 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Editor/Fonts/Roboto/Roboto-Bold.ttf
-  artifactKey: Guid(26a32e627fb084948ad18b8af0f356b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Editor/Fonts/Roboto/Roboto-Bold.ttf using Guid(26a32e627fb084948ad18b8af0f356b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0983223a42266f83f47cbaf18e399a1') in 0.030304 seconds
-  Import took 0.035021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_3DText.mat
-  artifactKey: Guid(e3523fdb6c8984448ac4f830e81c2224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_3DText.mat using Guid(e3523fdb6c8984448ac4f830e81c2224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0742595641733441fbd745e126cb5d') in 0.049250 seconds
-  Import took 0.052893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Hybrid Crisp.mat
-  artifactKey: Guid(2aa820eeb14587f4c926a3bd3c584c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Hybrid Crisp.mat using Guid(2aa820eeb14587f4c926a3bd3c584c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2d7bfb6e5d1470461964fcf56d853d') in 0.170425 seconds
-  Import took 0.173893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Editor/Fonts/Roboto/Roboto-Regular.ttf
-  artifactKey: Guid(8a406076b7de34849be1f35585875a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Editor/Fonts/Roboto/Roboto-Regular.ttf using Guid(8a406076b7de34849be1f35585875a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fe636c89c726f8a819a196cdb1bb63') in 0.023997 seconds
-  Import took 0.027662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Hybrid Outline.mat
-  artifactKey: Guid(8a8857e285677f740aca9c1b88d890e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Hybrid Outline.mat using Guid(8a8857e285677f740aca9c1b88d890e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cd4fb8f14a9db17757b1cf49e52f2a') in 0.219568 seconds
-  Import took 0.223316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Hybrid Basic.mat
-  artifactKey: Guid(24e86e1b648e9e04aa533d9600efa53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Hybrid Shader Demo Assets/Robot Hybrid Basic.mat using Guid(24e86e1b648e9e04aa533d9600efa53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ae5748142be87b6cba9aab04765f18') in 0.042743 seconds
-  Import took 0.046329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Editor/Fonts/Roboto/Roboto-Bold.ttf
-  artifactKey: Guid(26a32e627fb084948ad18b8af0f356b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Editor/Fonts/Roboto/Roboto-Bold.ttf using Guid(26a32e627fb084948ad18b8af0f356b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0983223a42266f83f47cbaf18e399a1') in 0.012994 seconds
-  Import took 0.017038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Editor/Fonts/Roboto/Roboto-Medium.ttf
-  artifactKey: Guid(fbfe696d18b99b946afae6126b37c025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Editor/Fonts/Roboto/Roboto-Medium.ttf using Guid(fbfe696d18b99b946afae6126b37c025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5bba19075ccafd05b994d0a401cb07') in 0.025969 seconds
-  Import took 0.030335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.785365 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_BrickWall_Flat.mat
-  artifactKey: Guid(2af672e9f6aba774db7c2ee1e800a98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_BrickWall_Flat.mat using Guid(2af672e9f6aba774db7c2ee1e800a98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2148470b6f5beb32b65c63a94697f9') in 0.034855 seconds
-  Import took 0.038884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_Car.mat
-  artifactKey: Guid(78609749a6ce9b64589ac35efe11cffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_Car.mat using Guid(78609749a6ce9b64589ac35efe11cffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ace371cacc2b828f05c19403fa51158') in 0.038873 seconds
-  Import took 0.042263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Brown.mat
-  artifactKey: Guid(b25054cb53f0901408babe5b2f89f654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Brown.mat using Guid(b25054cb53f0901408babe5b2f89f654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4da1ea28132f57cf91a66d212dee34') in 0.021956 seconds
-  Import took 0.025645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style6 hat.mat
-  artifactKey: Guid(e8f221911b27d8e46bf7ea09b295d671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style6 hat.mat using Guid(e8f221911b27d8e46bf7ea09b295d671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d90b8f8acfe2bc60f4eb9eb5eb12bbf') in 0.027910 seconds
-  Import took 0.031649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style1 hat.mat
-  artifactKey: Guid(eb1f3b7918cf06b49a6be8e82ec2ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style1 hat.mat using Guid(eb1f3b7918cf06b49a6be8e82ec2ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff71f712b2f1e099186fc72c895cd683') in 0.025070 seconds
-  Import took 0.029512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style3.mat
-  artifactKey: Guid(9b95aa8fa0938194bb5009a0a726935a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style3.mat using Guid(9b95aa8fa0938194bb5009a0a726935a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b055963add876890eca5fb4a9aa57f8') in 0.027009 seconds
-  Import took 0.030617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style4.mat
-  artifactKey: Guid(5f57daf66e29c524ea0ccce8927c37eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_CatFlat style4.mat using Guid(5f57daf66e29c524ea0ccce8927c37eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1e3707bd7f1b4cf33b682cea5a0ac4') in 0.177481 seconds
-  Import took 0.181543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style4.mat
-  artifactKey: Guid(f27241a35d0496e4cbcff6bf4deef185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style4.mat using Guid(f27241a35d0496e4cbcff6bf4deef185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb85bc3179cd451e5bad2fc00136f5f9') in 0.030083 seconds
-  Import took 0.034036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style1 hat.mat
-  artifactKey: Guid(e232a7b2a238a5045b80085e20d6fc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/Cat/TCP2_Demo_Cat style1 hat.mat using Guid(e232a7b2a238a5045b80085e20d6fc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea73bc67c5ad3a5a531de0fda7fa06f') in 0.030526 seconds
-  Import took 0.034238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.523291 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_Ground.mat
-  artifactKey: Guid(2b1fcf2ce086dab43a6c3d55565c7ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_Ground.mat using Guid(2b1fcf2ce086dab43a6c3d55565c7ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350f0a65187543bfb19baa2be97a3a9f') in 0.260113 seconds
-  Import took 0.265130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Default/TCP2_Demo_Robot_Dissolve.mat
-  artifactKey: Guid(53bc5538521bc5b4cb4d8a169a4f78ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Default/TCP2_Demo_Robot_Dissolve.mat using Guid(53bc5538521bc5b4cb4d8a169a4f78ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8054b49c7faec129b21bd0d76eb2829f') in 0.199398 seconds
-  Import took 0.203217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Default/TCP2_Demo_Robot_HSV.mat
-  artifactKey: Guid(dd5bcb9e312bd674292c6680634e529c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Default/TCP2_Demo_Robot_HSV.mat using Guid(dd5bcb9e312bd674292c6680634e529c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bac62f0b627f5072f73426b30f88dde') in 0.184622 seconds
-  Import took 0.188369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Cubemaps/TCP2_Demo_Sky_GoldenGate.mat
-  artifactKey: Guid(b42018a928539584d9e2ea47d50f7e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Cubemaps/TCP2_Demo_Sky_GoldenGate.mat using Guid(b42018a928539584d9e2ea47d50f7e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415a1f6843063c1c3b689f6437d71de3') in 0.135857 seconds
-  Import took 0.142114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_StreetLightNight_Flat.mat
-  artifactKey: Guid(bcadefaf8d79cd142a795016cebd844b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_StreetLightNight_Flat.mat using Guid(bcadefaf8d79cd142a795016cebd844b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af66e82726a3e9f788610cf6cdf17a3') in 0.223324 seconds
-  Import took 0.226988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style1 flat skin.mat
-  artifactKey: Guid(86ed4c853d6488e4e998a0d8126fe6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style1 flat skin.mat using Guid(86ed4c853d6488e4e998a0d8126fe6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc04aac7d0d793080b1340716f25cd3') in 0.137944 seconds
-  Import took 0.141814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style3 flat.mat
-  artifactKey: Guid(8f94a9d80ef0e014b9c0282eed5685ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style3 flat.mat using Guid(8f94a9d80ef0e014b9c0282eed5685ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30b0ea5433b9f9c75b7cbd044479e1f') in 0.094608 seconds
-  Import took 0.098257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style5 body.mat
-  artifactKey: Guid(23f84aaf22aeadc468f591df4275e601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style5 body.mat using Guid(23f84aaf22aeadc468f591df4275e601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d9b558092a2c06923e74b1b3bd7a7b') in 0.169715 seconds
-  Import took 0.173139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style5 flat skin.mat
-  artifactKey: Guid(4b3262c40e1e0854a9f7fa663b365656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style5 flat skin.mat using Guid(4b3262c40e1e0854a9f7fa663b365656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5690e034f9ab40c2d072411deffd76') in 0.133397 seconds
-  Import took 0.136486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style2 body.mat
-  artifactKey: Guid(dcd5ae17c9e835649aebf91a9a5d9d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style2 body.mat using Guid(dcd5ae17c9e835649aebf91a9a5d9d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ff2d95af0bbb62286d6aa6e7f760e6') in 0.131312 seconds
-  Import took 0.135160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style4 skin.mat
-  artifactKey: Guid(ef05e57b127ed9445b4e75c269228037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style4 skin.mat using Guid(ef05e57b127ed9445b4e75c269228037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ddd77b6774c39916197c7e2215d1b6') in 0.280631 seconds
-  Import took 0.283801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style6 flat body.mat
-  artifactKey: Guid(fd93840df0e02fe4cb42b7e617234f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style6 flat body.mat using Guid(fd93840df0e02fe4cb42b7e617234f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088e442ca67999ca66828a691e334881') in 0.261571 seconds
-  Import took 0.265023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_Water.mat
-  artifactKey: Guid(d6fbd428f93a1c248a72bed37f70160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_Water.mat using Guid(d6fbd428f93a1c248a72bed37f70160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202dae3da37a5799d3983ca8a780a8c2') in 0.200936 seconds
-  Import took 0.204153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Water/TCP2_Demo_WaterRealistic.mat
-  artifactKey: Guid(b04d5d7774d65704299642e39626529d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Water/TCP2_Demo_WaterRealistic.mat using Guid(b04d5d7774d65704299642e39626529d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f20a1ca83299fca2fb4ba4e44f14fd7') in 0.237392 seconds
-  Import took 0.240813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Graphics/TCP2_Demo_SkyboxDusk.mat
-  artifactKey: Guid(5390ccc6cbba36142a51bb2d8a8b582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Graphics/TCP2_Demo_SkyboxDusk.mat using Guid(5390ccc6cbba36142a51bb2d8a8b582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a59f8468785c660a4f1ebd15491474') in 0.120246 seconds
-  Import took 0.123558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style6.mat
-  artifactKey: Guid(9028259dff5570e4982ff329d257cfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style6.mat using Guid(9028259dff5570e4982ff329d257cfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25101d6b80cfe590f495cb9202941ce6') in 0.082886 seconds
-  Import took 0.086059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_VertexColors_Transparent.mat
-  artifactKey: Guid(708c256bc26bbda4f9c9521d8104e305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_VertexColors_Transparent.mat using Guid(708c256bc26bbda4f9c9521d8104e305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b306b02de3797155d310601e7a751ec') in 0.050135 seconds
-  Import took 0.053689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style4 body.mat
-  artifactKey: Guid(60675712091797d498fdafd5ae704697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style4 body.mat using Guid(60675712091797d498fdafd5ae704697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2368f06c84f839b7862c600b956e700d') in 0.132750 seconds
-  Import took 0.136208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_StreetLightNight.mat
-  artifactKey: Guid(16c2cb4597c17284c9fe6ad19d99623d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_StreetLightNight.mat using Guid(16c2cb4597c17284c9fe6ad19d99623d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e5e8e7b581e91fbef19a49e965c5d1') in 0.025048 seconds
-  Import took 0.028925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style3 flat skin.mat
-  artifactKey: Guid(45600aa819caf04488a3c645987bf68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style3 flat skin.mat using Guid(45600aa819caf04488a3c645987bf68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20477ac44888c30a347776c2e95e7666') in 0.258985 seconds
-  Import took 0.262589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Cubemaps/TCP2_Demo_Sky_NissiBeach.mat
-  artifactKey: Guid(fb95f05b10db1474ab6b72e4916bdfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Cubemaps/TCP2_Demo_Sky_NissiBeach.mat using Guid(fb95f05b10db1474ab6b72e4916bdfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f237fe6745ab973dbc6b837dc2b420') in 0.111247 seconds
-  Import took 0.115715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Water/TCP2_Demo_Lava Cartoon.mat
-  artifactKey: Guid(4fd5bc199de790948b2ca08687c92062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Water/TCP2_Demo_Lava Cartoon.mat using Guid(4fd5bc199de790948b2ca08687c92062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34605c54a38e3f52676bf66df7f82759') in 0.215495 seconds
-  Import took 0.219436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style6 flat.mat
-  artifactKey: Guid(2dd921f2995802247af917f9f60f0b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style6 flat.mat using Guid(2dd921f2995802247af917f9f60f0b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731da8c56cc27925aacb8d0cd342150c') in 0.092835 seconds
-  Import took 0.096879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style5 flat.mat
-  artifactKey: Guid(d9b27d9a95b6c5d469cec7b724f83374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style5 flat.mat using Guid(d9b27d9a95b6c5d469cec7b724f83374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfffc7a38561c0d2e73f6fb4ce158d4b') in 0.145158 seconds
-  Import took 0.149642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_WheelyBin.mat
-  artifactKey: Guid(7265d13ee9adb8349a2cda9f12443f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_WheelyBin.mat using Guid(7265d13ee9adb8349a2cda9f12443f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7993670b358e8f6b25148433e32c53f') in 0.040767 seconds
-  Import took 0.044996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Graphics/TCP2_Demo_SkyboxNight.mat
-  artifactKey: Guid(24e37d9b5c3e0be4fab3e1defb323693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Graphics/TCP2_Demo_SkyboxNight.mat using Guid(24e37d9b5c3e0be4fab3e1defb323693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99abfdaf8cf6adf87d9002f78ad926a') in 0.114022 seconds
-  Import took 0.119617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style5.mat
-  artifactKey: Guid(96de69f70eaab714db4bc2487df60ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style5.mat using Guid(96de69f70eaab714db4bc2487df60ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d76a45f36593050cb9dfd97f952df5') in 0.163433 seconds
-  Import took 0.166827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG2 Demo Assets/Default/TCP2_Demo_SG2 Vertex Color Albedo.mat
-  artifactKey: Guid(b05e74f9ae6e9e84ca96ef0a1b882f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG2 Demo Assets/Default/TCP2_Demo_SG2 Vertex Color Albedo.mat using Guid(b05e74f9ae6e9e84ca96ef0a1b882f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6e5093f0348f452b697c922c39d2f4') in 0.136214 seconds
-  Import took 0.140696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style3 skin.mat
-  artifactKey: Guid(e4fa7e4fa6a73f447a48621c1b942718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style3 skin.mat using Guid(e4fa7e4fa6a73f447a48621c1b942718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f590102b9c3b74c25ede17605ae1c2f6') in 0.080567 seconds
-  Import took 0.084497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Water/TCP2_Demo_Poison.mat
-  artifactKey: Guid(389cb0cfdd41e30428c707957f63188c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Water/TCP2_Demo_Poison.mat using Guid(389cb0cfdd41e30428c707957f63188c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd0580e06b331b018bbd43d67b221dd') in 0.225420 seconds
-  Import took 0.230013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style4 flat skin.mat
-  artifactKey: Guid(adc3b9b3e51e784428ed5e0305644362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style4 flat skin.mat using Guid(adc3b9b3e51e784428ed5e0305644362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2139420d86559470758d05aa5a3fe1c') in 0.153747 seconds
-  Import took 0.157092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG2 Demo Assets/Default/TCP2_Demo_SG2 Wind Animation Grass.mat
-  artifactKey: Guid(fba57fad68104ca4f8c504e1fb6b4ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG2 Demo Assets/Default/TCP2_Demo_SG2 Wind Animation Grass.mat using Guid(fba57fad68104ca4f8c504e1fb6b4ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865f29d557e0b2b01331719b14eb4224') in 0.207331 seconds
-  Import took 0.210201 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG2 Demo Assets/Default/TCP2_Demo_SG2 Hologram Torus.mat
-  artifactKey: Guid(5d178d73d8d2522468fcf25bac17ed63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG2 Demo Assets/Default/TCP2_Demo_SG2 Hologram Torus.mat using Guid(5d178d73d8d2522468fcf25bac17ed63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1903c463215959ed6cbad530ce3c139e') in 0.054818 seconds
-  Import took 0.057905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style4 flat.mat
-  artifactKey: Guid(1b73c23d58a8ac94aa102e783cefcba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style4 flat.mat using Guid(1b73c23d58a8ac94aa102e783cefcba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03ac1a2c79c8b7452807e9b59f6a96b') in 0.125080 seconds
-  Import took 0.128595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Water/TCP2_Demo_Lava.mat
-  artifactKey: Guid(3a0511e322426e2409f7418fc3796530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Water/TCP2_Demo_Lava.mat using Guid(3a0511e322426e2409f7418fc3796530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58c93dfae91625674ea32907f16c105') in 0.204512 seconds
-  Import took 0.207896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style4 flat body.mat
-  artifactKey: Guid(b3f15240ab3a6ef479dfe0146e2abd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style4 flat body.mat using Guid(b3f15240ab3a6ef479dfe0146e2abd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a26037c01212611c04ff416af82701') in 0.128467 seconds
-  Import took 0.131645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/PBS/TCP2_Demo_Robot_SketchPBS.mat
-  artifactKey: Guid(587dbc9bf44c86444b11e63d142e1514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/PBS/TCP2_Demo_Robot_SketchPBS.mat using Guid(587dbc9bf44c86444b11e63d142e1514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179df0edae33438bc300a958dd79ca65') in 0.307014 seconds
-  Import took 0.310807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style2 flat.mat
-  artifactKey: Guid(2fba9f1b1229b6b418c1b622e4f9dc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style2 flat.mat using Guid(2fba9f1b1229b6b418c1b622e4f9dc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1e6454c3e1c54928dbfc151c62772f') in 0.131185 seconds
-  Import took 0.134968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Default/TCP2_Demo_Robot_Sketch.mat
-  artifactKey: Guid(569d2bdff9e1e0044b6589117dfffce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Default/TCP2_Demo_Robot_Sketch.mat using Guid(569d2bdff9e1e0044b6589117dfffce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfafcaa6417e1598b223e33605fb46cc') in 0.210773 seconds
-  Import took 0.214069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style2 flat skin.mat
-  artifactKey: Guid(2deaa891e08049740b53bd21cc2142c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style2 flat skin.mat using Guid(2deaa891e08049740b53bd21cc2142c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b307f8c7fa666e3930be6b855fc9c43c') in 0.128681 seconds
-  Import took 0.131925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Yellow.mat
-  artifactKey: Guid(abab7a08f0dcd464786a47d16b63a2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Yellow.mat using Guid(abab7a08f0dcd464786a47d16b63a2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a606cdc424e145c26b52c75e5fa57a') in 0.024268 seconds
-  Import took 0.028183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style2.mat
-  artifactKey: Guid(3800da9f96a322a49bad64adf6d0623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style2.mat using Guid(3800da9f96a322a49bad64adf6d0623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee3895437d481c5d87079043a8a0a82') in 0.130618 seconds
-  Import took 0.134382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Cubemaps/TCP2_Demo_Sky_Lycksele.mat
-  artifactKey: Guid(d44a8316999f338409243d521c228bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Cubemaps/TCP2_Demo_Sky_Lycksele.mat using Guid(d44a8316999f338409243d521c228bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd349f956304960301cdae93434ac18af') in 0.111309 seconds
-  Import took 0.116995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style6 body.mat
-  artifactKey: Guid(6b121ffd8c3bb744bb16403c4ceb9eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style6 body.mat using Guid(6b121ffd8c3bb744bb16403c4ceb9eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636322effed9382b50a37a84d2345f8a') in 0.085917 seconds
-  Import took 0.090477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_StreetLightDay.mat
-  artifactKey: Guid(b92202aa25c0fb747b2aa80fab3b73fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_StreetLightDay.mat using Guid(b92202aa25c0fb747b2aa80fab3b73fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6545ecdbd50f9122b96d02015dea91') in 0.024582 seconds
-  Import took 0.028068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_VertexColors_Specular.mat
-  artifactKey: Guid(82dc33c8438e53f4b91d63117d998d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_VertexColors_Specular.mat using Guid(82dc33c8438e53f4b91d63117d998d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a750c07c08d73ac2d22ddadc124a14d9') in 0.021075 seconds
-  Import took 0.025021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style1 flat body.mat
-  artifactKey: Guid(98ce2be4b908d3442ac465424eb688d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style1 flat body.mat using Guid(98ce2be4b908d3442ac465424eb688d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19e0127003660f89a8778d081e4e4c5') in 0.126434 seconds
-  Import took 0.129845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Water/TCP2_Demo_WaterReflection.mat
-  artifactKey: Guid(587d5a64a9383124781c9ec616925d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Water/TCP2_Demo_WaterReflection.mat using Guid(587d5a64a9383124781c9ec616925d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8a399a359538ab5d1f2624ff3a6675') in 0.218663 seconds
-  Import took 0.221998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Default/TCP2_Demo_Robot_Subsurface.mat
-  artifactKey: Guid(3961287fbdab115498a998e04d35f45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Default/TCP2_Demo_Robot_Subsurface.mat using Guid(3961287fbdab115498a998e04d35f45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1295e96a34baf0bdc69af2ae97494b78') in 0.135703 seconds
-  Import took 0.139113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Default/TCP2_Demo_Robot_OldSchool.mat
-  artifactKey: Guid(138235297c1018a40b1f40b5cbd792d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/Default/TCP2_Demo_Robot_OldSchool.mat using Guid(138235297c1018a40b1f40b5cbd792d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057c28641b925f79c2c96dcb79303e5d') in 0.138646 seconds
-  Import took 0.141817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style3 body.mat
-  artifactKey: Guid(3c65ec09b26d7c94db9198ef5a0667b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/UnityChan/TCP2_Demo_UnityChan style3 body.mat using Guid(3c65ec09b26d7c94db9198ef5a0667b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5deb40e9f0d6c002c2b5c6da2e80051') in 0.079956 seconds
-  Import took 0.083006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 537.803162 seconds.
-  path: Assets/Models/gauntlet.fbx
-  artifactKey: Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gauntlet.fbx using Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809fbe8bae2c770585a677953ffd4701') in 0.471115 seconds
-  Import took 0.475805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.622623 seconds.
   path: Assets/Animation/Animator/gauntlet.controller
   artifactKey: Guid(637d19171538cdd469a5ecc4b77d4618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Animator/gauntlet.controller using Guid(637d19171538cdd469a5ecc4b77d4618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b944dc53697db3c764c7c23d92a928d') in 0.009715 seconds
-  Import took 0.013048 seconds .
+Start importing Assets/Animation/Animator/gauntlet.controller using Guid(637d19171538cdd469a5ecc4b77d4618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d26306015f35094843da79a8b259900') in 0.040790 seconds
+  Import took 0.043919 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.5 MB.
+System memory in use after: 70.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2113.
+Total: 2.724100 ms (FindLiveObjects: 0.238700 ms CreateObjectMapping: 0.144700 ms MarkObjects: 2.173100 ms  DeleteObjects: 0.167000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003628 seconds.
+Registered in 0.003671 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.028 seconds
+- Completed reload, in  1.037 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1595 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.6 MB.
+System memory in use after: 101.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2116.
+Total: 2.381400 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.099400 ms MarkObjects: 1.932900 ms  DeleteObjects: 0.161100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004060 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.044 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1595 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.6 MB.
+System memory in use after: 101.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2119.
+Total: 2.073000 ms (FindLiveObjects: 0.160600 ms CreateObjectMapping: 0.055300 ms MarkObjects: 1.696400 ms  DeleteObjects: 0.159800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1740.942382 seconds.
+  path: Assets/Models/clapper.fbx
+  artifactKey: Guid(111de53dc898bad40904f320f2df68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/clapper.fbx using Guid(111de53dc898bad40904f320f2df68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dd5b0919d50ad493144fdaa038bab3') in 0.161092 seconds
+  Import took 0.165013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.919654 seconds.
+  path: Assets/Models/clapper.fbx
+  artifactKey: Guid(111de53dc898bad40904f320f2df68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/clapper.fbx using Guid(111de53dc898bad40904f320f2df68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb8a6f2dc3e92c66ad9a937a75ee507') in 0.025044 seconds
+  Import took 0.028771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001676 seconds.
+  path: Assets/Models/clapper.fbx
+  artifactKey: Guid(111de53dc898bad40904f320f2df68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/clapper.fbx using Guid(111de53dc898bad40904f320f2df68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb8a6f2dc3e92c66ad9a937a75ee507') in 0.030157 seconds
+  Import took 0.033774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.694892 seconds.
+  path: Assets/Models/clapper.fbx
+  artifactKey: Guid(111de53dc898bad40904f320f2df68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/clapper.fbx using Guid(111de53dc898bad40904f320f2df68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb040e319be6d917ca8712b134fedfaf') in 0.033295 seconds
+  Import took 0.037538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 274.768664 seconds.
+  path: Assets/Models/clapper.fbx
+  artifactKey: Guid(111de53dc898bad40904f320f2df68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/clapper.fbx using Guid(111de53dc898bad40904f320f2df68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1aef9ae16465cc7a9f5f3e1a2ce488') in 0.026181 seconds
+  Import took 0.029883 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1595 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.6 MB.
-System memory in use after: 105.7 MB.
+System memory in use before: 118.5 MB.
+System memory in use after: 118.5 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2164.
-Total: 2.571400 ms (FindLiveObjects: 0.200700 ms CreateObjectMapping: 0.104900 ms MarkObjects: 2.093800 ms  DeleteObjects: 0.171100 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2133.
+Total: 2.749900 ms (FindLiveObjects: 0.255200 ms CreateObjectMapping: 0.118200 ms MarkObjects: 2.240300 ms  DeleteObjects: 0.134700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 60.075658 seconds.
-  path: Assets/Prefabs/gauntlet.prefab
-  artifactKey: Guid(03e1f6a897c05954f89a6fdd7efdef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/gauntlet.prefab using Guid(03e1f6a897c05954f89a6fdd7efdef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07611485ae11409ab6e6e416de9d124d') in 0.271343 seconds
-  Import took 0.274669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.956427 seconds.
-  path: Assets/Models/gauntlet.fbx
-  artifactKey: Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gauntlet.fbx using Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8552a8794d55ff6c3e5e3d76ba1b4d') in 0.398205 seconds
-  Import took 0.402308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.231396 seconds.
-  path: Assets/Models/gauntlet.fbx
-  artifactKey: Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gauntlet.fbx using Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238556a0d48b3811aeccdb57522b261e') in 0.339347 seconds
-  Import took 0.344094 seconds .
-
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003613 seconds.
+Registered in 0.003722 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.076 seconds
+- Completed reload, in  1.047 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1595 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.8 MB.
+System memory in use before: 118.5 MB.
+System memory in use after: 118.6 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2168.
-Total: 3.323300 ms (FindLiveObjects: 0.380000 ms CreateObjectMapping: 0.120800 ms MarkObjects: 2.690100 ms  DeleteObjects: 0.131000 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2136.
+Total: 2.337700 ms (FindLiveObjects: 0.180000 ms CreateObjectMapping: 0.060500 ms MarkObjects: 1.928700 ms  DeleteObjects: 0.167600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 242.614928 seconds.
-  path: Assets/Models/gauntlet.fbx
-  artifactKey: Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gauntlet.fbx using Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14dc45e2328857c52fbef29aa47899e3') in 0.383749 seconds
-  Import took 0.387616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.182131 seconds.
-  path: Assets/Prefabs/gauntlet.prefab
-  artifactKey: Guid(03e1f6a897c05954f89a6fdd7efdef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/gauntlet.prefab using Guid(03e1f6a897c05954f89a6fdd7efdef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88eefdfde206e9c0873170eece22ae98') in 0.235095 seconds
-  Import took 0.239060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.288001 seconds.
-  path: Assets/Prefabs/gauntlet.prefab
-  artifactKey: Guid(03e1f6a897c05954f89a6fdd7efdef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/gauntlet.prefab using Guid(03e1f6a897c05954f89a6fdd7efdef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (gauntlet) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (gauntlet) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: 'd45d1f6e4f46fc2bc3969aa63367a94f') in 0.223634 seconds
-  Import took 0.227656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.507335 seconds.
-  path: Assets/Models/gauntlet.fbx
-  artifactKey: Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gauntlet.fbx using Guid(d5ebe4caf816e5442aff9d7646398f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f502df8eceadf01b813f0343f559d8') in 0.338230 seconds
-  Import took 0.342561 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003601 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.057 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1595 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.9 MB.
-System memory in use after: 106.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2172.
-Total: 12.303200 ms (FindLiveObjects: 0.270600 ms CreateObjectMapping: 0.150400 ms MarkObjects: 11.685100 ms  DeleteObjects: 0.195400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
