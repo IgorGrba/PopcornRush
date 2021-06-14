@@ -41,10 +41,11 @@
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\CollectedObjController.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\PopcornCharacter.cs" />
-     <Compile Include="Assets\Scripts\FirstPlayer.cs" />
-     <Compile Include="Assets\Scripts\EndSequence.cs" />
      <Compile Include="Assets\Scripts\Handgrab.cs" />
+     <Compile Include="Assets\Scripts\PopcornCharacter.cs" />
+     <Compile Include="Assets\Scripts\EndSequence.cs" />
+     <Compile Include="Assets\Scripts\FirstPlayer.cs" />
+     <Compile Include="Assets\Scripts\GameUI.cs" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_URP.txt" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Triplanar Sampling.txt" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Dissolve.shader" />
