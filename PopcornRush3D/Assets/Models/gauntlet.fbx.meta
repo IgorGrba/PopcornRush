@@ -9,7 +9,72 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: smash
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #25
+    second: {fileID: 2100000, guid: 5236e0c1565402f459732ede1dcdca1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #26
+    second: {fileID: 2100000, guid: 383b60874badacd40b1c23917262a6fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #27
+    second: {fileID: 2100000, guid: f29cdf758319d6b488f637135a1c5e1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #28
+    second: {fileID: 2100000, guid: 2c08cba4f7b3e5e40a27c70600d0aa86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #29
+    second: {fileID: 2100000, guid: c939215ed3f6d414d8239c5cda15ee7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 8198a8ed8cc31af4eaa4062ae1e2e4b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: ece7e9338b4e0ca42b2166fe87c1b93b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 676cf3cffd3fecb4091f595115edd577, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 1e5ff828f2ec23e448fea8f43489f87f, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1dolon_color
+    second: {fileID: 2800000, guid: f445ad34499a0b042aae5f7c65196fde, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BigPalec_color
+    second: {fileID: 2800000, guid: a83f553c2902a5841b7b73c4dde4cc17, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Braclet_color
+    second: {fileID: 2800000, guid: 58551857af1c9534598d91d854d1ac09, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: likot_color
+    second: {fileID: 2800000, guid: 7e4b90e2afb181e40b3942aca4cc6b67, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
