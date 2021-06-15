@@ -6,7 +6,6 @@ public class CollectedObjController : MonoBehaviour
 {
     PlayerManager playerManager;
 
-    [SerializeField] Transform sphere;
     // Start is called before the first frame update
     void Start()
     {
@@ -67,4 +66,6 @@ public class CollectedObjController : MonoBehaviour
 
        Transform partcile= Instantiate(playerManager.partcilePrefab,transform.position,Quaternion.identity);
    }
+
+
 }
