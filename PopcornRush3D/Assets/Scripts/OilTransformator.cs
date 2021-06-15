@@ -12,7 +12,7 @@ public class OilTransformator : MonoBehaviour
         var popcorn = whichCollider.gameObject.GetComponent<PopcornCharacter>();
         if (popcorn != null)
         {
-           // popcorn.GetComponent<Rigidbody>().AddForce(0, 300, 0);
+            // popcorn.GetComponent<Rigidbody>().AddForce(0, 50, 0, ForceMode.Impulse);
             popcorn.ActivatePopcorn();
             
         }

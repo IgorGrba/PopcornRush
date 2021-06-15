@@ -18,8 +18,8 @@ public class CollectedObjController : MonoBehaviour
 
             Rigidbody rb = GetComponent<Rigidbody>();
 
-            rb.useGravity=false;
-            rb.constraints= RigidbodyConstraints.FreezeAll;
+            // rb.useGravity=false;
+            // rb.constraints= RigidbodyConstraints.FreezeAll;
 
         }
     }

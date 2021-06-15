@@ -1022,7 +1022,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631992296}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.36, z: 7.47}
+  m_LocalPosition: {x: 0, y: 0.31, z: 11.49}
   m_LocalScale: {x: 4.6416, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1041,6 +1041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myAnim: {fileID: 748181063027704358}
+  playerManager: {fileID: 1469474805}
   myRB: {fileID: 799442233}
 --- !u!65 &631992299
 BoxCollider:
@@ -1053,8 +1054,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.47852653, z: 0.41809273}
+  m_Center: {x: 0, y: -0.26073673, z: 4.216346}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2597,7 +2598,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1257973709
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3425,8 +3426,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774413520}
-  m_LocalRotation: {x: 0.0028865281, y: 0.9969158, z: -0.06449708, w: 0.044616375}
-  m_LocalPosition: {x: -10.132008, y: 13.113235, z: -5.4314194}
+  m_LocalRotation: {x: 0.0038546522, y: 0.99609137, z: -0.05698487, w: 0.06737905}
+  m_LocalPosition: {x: -12.705998, y: 13.3437805, z: 1.1437778}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1021270597}
@@ -3515,7 +3516,7 @@ MonoBehaviour:
   - m_FullHash: -1641890008
     m_VirtualCamera: {fileID: 1774413521}
     m_ActivateAfter: 0
-    m_MinDuration: 3
+    m_MinDuration: 5
   m_DefaultBlend:
     m_Style: 1
     m_Time: 0.2
@@ -3936,7 +3937,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055597852}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.02, y: -5.53, z: 17.24}
+  m_LocalPosition: {x: 0.02, y: -5.6, z: 18.62}
   m_LocalScale: {x: 5.4009867, y: 5.4009867, z: 5.4009867}
   m_Children:
   - {fileID: 520543744}

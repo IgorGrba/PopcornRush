@@ -23,6 +23,7 @@ public class PopcornCharacter : MonoBehaviour
         {
             popcornAnimator.SetTrigger("Pop");
         }
+
         
         
     }
